@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
+    <aura:attribute name="accounts" type="List"/>
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout slds-table_striped">
+  <thead>
+    <tr class="slds-text-heading_label">
+      <th class="" scope="col"><div class="slds-truncate" title="ID">ID</div>
+      </th>
+      <th class="" scope="col"><div class="slds-truncate" title="Name">Name</div>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="slds-text-heading_label">
+      <th class="" scope="col"><div class="slds-truncate" title="ID">ID</div>
+      </th>
+      <th class="" scope="col"><div class="slds-truncate" title="Name">Name</div>
+      </th>
+    </tr>
+  </tbody>
+</table>
+</aura:component>
