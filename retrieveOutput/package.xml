@@ -10,7 +10,7 @@
         <name>Layout</name>
     </types>
 	<types>
-		<members>AddTask</members>
+		<members>addtask</members>
 		<name>ApexTrigger</name>
 	</types>
     <version>52.0</version>
