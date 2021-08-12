@@ -9,5 +9,9 @@
         <members>myobj__c-myobj Layout</members>
         <name>Layout</name>
     </types>
+	<types>
+		<members>AddTask</members>
+		<name>ApexTrigger</name>
+	</types>
     <version>52.0</version>
 </Package>
