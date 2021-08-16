@@ -9,9 +9,6 @@
 		<members>AddTask</members>
 		<name>ApexTrigger</name>
 	</types>
-	<types>
-		<members>AddTask</members>
-		<name>ApexTrigger</name>
-	</types>
+	
     <version>52.0</version>
 </Package>
