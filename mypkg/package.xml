@@ -4,6 +4,10 @@
     <types>
         <members>myobj__c</members>
         <name>CustomObject</name>
-    </types>	
+    </types>
+	<types>
+		<members>*</members>
+		<name>Workflow</name>
+	</types
     <version>52.0</version>
 </Package>
