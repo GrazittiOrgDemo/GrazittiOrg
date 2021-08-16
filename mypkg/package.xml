@@ -5,10 +5,7 @@
         <members>myobj__c</members>
         <name>CustomObject</name>
     </types>
-	<types>
-		<members>AddTask</members>
-		<name>ApexTrigger</name>
-	</types>
+	
 	<types>
         <members>	myobj__c - Copy</members>
         <name>CustomObject</name>
