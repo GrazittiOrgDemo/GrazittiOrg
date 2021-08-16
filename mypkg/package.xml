@@ -6,7 +6,7 @@
         <name>CustomObject</name>
     </types>
 	<types>
-        <members>myobj__c - Copy</members>
+        <members>myoobj__c</members>
         <name>CustomObject</name>
     </types>
 	<types>
