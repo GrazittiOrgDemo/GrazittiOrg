@@ -4,10 +4,6 @@
     <types>
         <members>myobj__c</members>
         <name>CustomObject</name>
-    </types>
-	<types>
-        <members>myobj__c - Copy</members>
-        <name>CustomObject</name>
     </types>	
     <version>52.0</version>
 </Package>
