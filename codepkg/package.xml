@@ -10,7 +10,7 @@
         <name>ApexTrigger</name>
     </types>
 	<types>
-        <members>AddTask</members>
+        <members>*</members>
         <name>ApexTrigger</name>
     </types>
     <version>52.0</version>
