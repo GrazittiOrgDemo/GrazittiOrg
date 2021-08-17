@@ -1,7 +1,7 @@
 trigger CreateContacts on Account (after insert,after update) {
     for(Account Ac:trigger.new){
         List <Contact> NewContactList = New List <Contact>();
-        Decimal NumberOfLocations = Ac.Number_of_Locations__c;
+        Decimal NumberOfLocations = 10;
         if(NumberOfLocations!=NULL){
             for(integer i=0;i<=NumberOfLocations;i++){
                 Contact Con = new Contact();
