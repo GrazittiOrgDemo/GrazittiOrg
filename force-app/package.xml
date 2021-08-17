@@ -5,8 +5,8 @@
         <name>ApexClass</name>
     </types>
 	<types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <version>44.0</version>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+    <version>46.0</version>
 </Package>
