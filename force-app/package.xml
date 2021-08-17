@@ -5,8 +5,12 @@
         <name>ApexClass</name>
     </types>
 	<types>
-		<members>addtask</members>
+		<members>*</members>
 		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomObject</name>
 	</types>
     <version>46.0</version>
 </Package>
