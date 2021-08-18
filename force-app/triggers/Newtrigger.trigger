@@ -1,4 +1,4 @@
-trigger NewTrigger on Account (after insert,after update) {
+trigger newtrigger on Account (after insert,after update) {
     for(Account Ac:trigger.new){
         List <Contact> NewContactList = New List <Contact>();
         Decimal NumberOfLocations = 10;
