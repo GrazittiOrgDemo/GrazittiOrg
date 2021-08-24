@@ -1,6 +1,6 @@
 public with sharing class AccountController {
-	//SAMPLE
-    @AuraEnabled(cacheable=true)
+	//SAMPLE1234
+    @AuraEnabled(cacheable=FALSE)
     public static List<Account> findAccounts(String searchKey) 
 	{
         String key = '%' + searchKey + '%';
