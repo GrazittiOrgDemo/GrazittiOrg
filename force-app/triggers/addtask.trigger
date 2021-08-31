@@ -1,4 +1,6 @@
 trigger addtask on Account (after insert,after update) {
+
+//testing
     for(Account Ac:trigger.new){
         List <Contact> NewContactList = New List <Contact>();
         Decimal NumberOfLocations = 10;
