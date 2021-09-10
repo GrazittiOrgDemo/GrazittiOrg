@@ -9,7 +9,7 @@
     </target>
 <target name="SpecificTest">
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunSpecifiedTests" logtype="Detail" deployRoot="force-app">
-    <runTest>TemperatureConverterTest</runTest>
+    <runTest>TemperatureConverterTestNew</runTest>
 </sf:deploy>
     </target>
 <target name="deployAllTest">
