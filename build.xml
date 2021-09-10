@@ -4,4 +4,7 @@
 <target name="deployAll">
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testlevel="NoTestRun" logtype="Detail" deployRoot="force-app"/>
 </target>
+<target name="deployCodeCheckOnly">
+<sf:deploy username="${sf.username}" password="${sf.password}" sessionId="${sf.sessionId}" serverurl="${sf.serverurl}" maxPoll="${sf.maxPoll}" deployRoot="force-app" checkOnly="true"/>
+    </target>
 </project>
