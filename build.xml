@@ -7,5 +7,9 @@
 <target name="deployCodeCheckOnly">
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="force-app" checkOnly="true"/>
     </target>
+<target name="deployAllTest">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}"testLevel="RunSpecifiedTests" logtype="Detail" deployRoot="force-app"/>
+<runTest>AccountAgreementControllerTest</runTest>
+</target>
 </project>
 
