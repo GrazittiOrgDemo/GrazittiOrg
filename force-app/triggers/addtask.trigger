@@ -1,4 +1,6 @@
 trigger addtask on Account (after insert,after update) {
+
+//testing123456
     for(Account Ac:trigger.new){
         List <Contact> NewContactList = New List <Contact>();
         Decimal NumberOfLocations = 10;
@@ -8,6 +10,7 @@ trigger addtask on Account (after insert,after update) {
                 con.AccountId = Ac.Id;
                 con.Lastname = 'Test'+i;
                 NewContactList.add(Con);
+                //Sample SFDX
             }
         }
             Insert newContactList;
