@@ -11,6 +11,7 @@
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunSpecifiedTests" logtype="Detail" deployRoot="force-app">
     <runTest>TemperatureConverterTest</runTest>
 </sf:deploy>
+    </target>
 <target name="deployAllTest">
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunLocalTests" logtype="Detail" deployRoot="force-app"/>
 </target>
