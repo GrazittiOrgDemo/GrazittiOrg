@@ -16,5 +16,9 @@
 <target name="deployAllTest">
 <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunLocalTests" logtype="Detail" deployRoot="force-app"/>
 </target>
+
+<target name="deployoutput">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" logtype="Detail" deployRoot="output">
+</target>
 </project>
 
