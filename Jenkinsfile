@@ -1,4 +1,6 @@
 #!groovy
+import jenkins.model.*
+jenkins = Jenkins.instance
 
 node {
 
