@@ -1,0 +1,20 @@
+<project name="Sample usage of Salesforce Ant tasks" default="test" basedir="." xmlns:sf="antlib:com.salesforce">
+<property file="build.properties"/>
+    <property environment="env"/>
+<target name="deployAll">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testlevel="NoTestRun" logtype="Detail" deployRoot="force-app"/>
+</target>
+<target name="deployCodeCheckOnly">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="force-app" checkOnly="true"/>
+    </target>
+<target name="SpecificTest">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunSpecifiedTests" logtype="Detail" deployRoot="force-app">
+    <runTest>TemperatureConverterTestNew</runTest>
+    <runTest>TemperatureConverterTest</runTest>
+</sf:deploy>
+    </target>
+<target name="deployAllTest">
+<sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" testLevel="RunLocalTests" logtype="Detail" deployRoot="force-app"/>
+</target>
+</project>
+
