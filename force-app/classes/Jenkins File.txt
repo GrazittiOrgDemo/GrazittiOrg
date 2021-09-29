@@ -1,8 +1,0 @@
-git branch
-git --no-pager diff --name-status origin/main origin/main
-git diff HEAD~1 HEAD --no-renames --name-only
-sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output .
-sfdx sgd:source:convert --manifest=package/package.xml --outputdir=convert 
-cat package/package.xml 
-sfdx force:mdapi:deploy -d destructiveChanges -u grazittiorgdev1@gmail.com
-sfdx force:source:deploy -x package/package.xml --testlevel=NoTestRun -u grazittiorgdev1@gmail.com
