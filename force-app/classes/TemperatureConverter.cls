@@ -1,5 +1,5 @@
 public class TemperatureConverter {
-    // Sample Takes a Fahrenheit temperature and returns the Celsius equivalent. Sample 16 Test Sample
+    // Sample Takes a Fahrenheit temperature and returns the Celsius equivalent. Sample 6 Test Sample
     public static Decimal FahrenheitToCelsius(Decimal fh) {
         Decimal cs = (fh - 32) * 5/9;
         return cs.setScale(2);
